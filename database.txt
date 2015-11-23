@@ -1,0 +1,5 @@
+[
+{'entryText': 'search term', 'state': 'OR', 'unique': 104115376316954297, 'entryType': 'caselaw', 'title': 'case1'},
+{'entryText': 'search term', 'state': 'OR', 'unique': -7032897979340873984, 'entryType': 'caselaw', 'title': 'case2'},
+{'entryText': 'search term', 'state': 'OR', 'unique': 3510088412035708298, 'entryType': 'caselaw', 'title': 'added new'}
+]
