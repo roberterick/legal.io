@@ -1,5 +1,5 @@
 [
 {'entryText': 'search term', 'state': 'OR', 'unique': 104115376316954297, 'entryType': 'caselaw', 'title': 'case1'},
 {'entryText': 'search term', 'state': 'OR', 'unique': -7032897979340873984, 'entryType': 'caselaw', 'title': 'case2'},
-{'entryText': 'search term', 'state': 'OR', 'unique': 3510088412035708298, 'entryType': 'caselaw', 'title': 'added new'}
+{'entryText': 'In recent years, the Supreme Court has mostly stayed out of the decades-long battle over abortion rights. But today the Justices stepped back into the abortion wars in a big way. They announced this afternoon that they would review a challenge to a Texas law that, abortion rights supporters say, would close seventy-five percent of the clinics in Texas. Texas officials counter that the law is intended to protect women\xe2\x80\x99s health, and that women will still be able to obtain abortions, even if they may have to drive a little further to do so. Let\xe2\x80\x99s talk about today\xe2\x80\x99s grant in Whole Woman\xe2\x80\x99s Health v. Cole in Plain English.', 'state': 'OR', 'unique': 2785566075579185888, 'entryType': 'caselaw', 'title': 'added new'}
 ]

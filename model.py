@@ -51,10 +51,9 @@ class Database(object):
             if not item.has_key('unique'):
                 self.addHash(item)
 
-    def getData(self,entrytype,state,searchterm):
+    def getData(self,entrytype,state):
         data=filter(lambda item:item['entryType']==entrytype,self.database)
         data=filter(lambda item:item['state']==state,data)
-        data=filter(lambda item:item['entryText'].find(searchterm)>-1,data)
         return data
         
 if __name__=='__main__':

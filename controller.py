@@ -13,7 +13,8 @@ def caselawlookup():
 def docaselawlookup():
     searchTerm=bottle.request.forms.get("searchTerm")
     state=bottle.request.forms.get("state")
-    cases=database.getData('caselaw',state,searchTerm)
+    cases=database.getData('caselaw',state)
+    cases=filter(lambda item:item['entryText'].find(searchTerm)>-1,cases)
     return bottle.template('caselawlookupresults',dict(cases=cases))
 
 
