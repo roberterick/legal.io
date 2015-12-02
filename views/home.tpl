@@ -20,7 +20,7 @@
     <p/>
     <a href="whatsmyfine">what's my fine</a>
     <p/>
-    <a href="localattorneyupdate">local attorney update</a>
+    <a href="localattorneysearch">local attorney search</a>
     <p/>
     <a href="legalquestionsubmission">legal question submission</a>
     <p/>

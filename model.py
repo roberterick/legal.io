@@ -55,6 +55,21 @@ class Database(object):
         data=filter(lambda item:item['entryType']==entrytype,self.database)
         data=filter(lambda item:item['state']==state,data)
         return data
+
+    def getList(self,entrytype):
+        data=filter(lambda item:item['entryType']==entrytype,self.database)
+        return data
+
+    def getState(self,state):
+        data=filter(lambda item:item['entryType']=='stateList',self.database)
+        data=filter(lambda item:item['abbreviation']==state,data)
+        return data[0]
+
+    def getAttorneys(self,entrytype,county,state):
+        data=filter(lambda item:item['entryType']==entrytype,self.database)
+        data=filter(lambda item:item['county']==county,data)
+        data=filter(lambda item:item['state']==state,data)
+        return data
         
 if __name__=='__main__':
     d=Database()
