@@ -26,7 +26,7 @@
 					</select><br><br>
 
 				<b>Enter in your Question</b><br>
-					<p><textarea name="questoin" cols="75" rows="20"></textarea></p>
+					<p><input type="text" name="userquestion" cols="75" rows="20"></textarea></p>
 
 				<input type="submit" value="Submit">
 		</form>
