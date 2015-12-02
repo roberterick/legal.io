@@ -34,6 +34,17 @@ def dolocalattorneysearch():
     state=bottle.request.forms.get("state")
     attorneys=database.getAttorneys('attorney', searchTerm, state)
     return bottle.template('localattorneysearchresults',attorneys=attorneys)
+    
+@bottle.route('/legalquestionsubmission')
+def legalquestionsubmission():
+    return bottle.template('legalquestionsubmission')
+
+@bottle.post('/showlegalquestionsubmission')
+def showlegalquestionsubmission():
+    searchTerm=bottle.request.forms.get("userquestion")
+    state=bottle.request.forms.get("state")
+    receivedquestion=database.getQuestions('question',searchTerm,state)    
+    return bottle.template('legalquestionsubmission',dict(receivedquestion=receivedquestion))
 
 database=model.Database()
 bottle.debug(True)
