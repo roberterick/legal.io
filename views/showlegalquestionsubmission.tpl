@@ -2,7 +2,7 @@
 
 <html>
   <head>
-    <title>legal.io--case show legal question submission</title>
+    <title>legal.io--show legal questions</title>
     <style type="text/css">
       .label {text-align: right}
       .error {color: red}
@@ -12,10 +12,10 @@
   <body>
       <h2>legal.io--Show Legal Question Submission</h2>
   
-      	%if receivedquestion:
-      		%for receivedquestion in receivedquestion:
-      			State:{{receivedquestion['State']}}<br>
-      			Question:{{receivedquestion['Question']}}<br>
+      	%if receivedquestions:
+      		%for receivedquestion in receivedquestions:
+      			State:{{receivedquestion['state']}}<br>
+      			Question:{{receivedquestion['userquestion']}}<br>
       		<hr>
       		<br>
       	%end

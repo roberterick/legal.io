@@ -39,12 +39,23 @@ def dolocalattorneysearch():
 def legalquestionsubmission():
     return bottle.template('legalquestionsubmission')
 
-@bottle.post('/showlegalquestionsubmission')
+@bottle.post('/dolegalquestionsubmission')
 def showlegalquestionsubmission():
-    searchTerm=bottle.request.forms.get("userquestion")
+    entryType='userquestion'
     state=bottle.request.forms.get("state")
-    receivedquestion=database.getQuestions('question',searchTerm,state)    
-    return bottle.template('legalquestionsubmission',dict(receivedquestion=receivedquestion))
+    userquestion=bottle.request.forms.get("userquestion")
+    #first save the question
+    database.saveData(entryType,state,{'userquestion':userquestion})
+    #save entire database
+    database.save()
+    #then retrieve and display the questions
+    receivedquestions=database.getData('userquestion',state)
+    
+##    searchTerm=bottle.request.forms.get("userquestion")
+##    state=bottle.request.forms.get("state")
+##    receivedquestion=database.getQuestions('question',searchTerm,state)    
+##    return bottle.template('legalquestionsubmission',dict(receivedquestion=receivedquestion))
+    return bottle.template('showlegalquestionsubmission',dict(receivedquestions=receivedquestions))
 
 @bottle.route('/statutelookup')
 def statutelookup():

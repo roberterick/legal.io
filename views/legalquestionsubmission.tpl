@@ -17,7 +17,7 @@
 	<body>
 		<h2>legal.io--Legal Question Submission</h2>
 
-		<form action="/legalquestionsubmission" method="POST">
+		<form action="/dolegalquestionsubmission" method="POST">
 
 				<b>Your state</b><br>
 					<select name="state">        

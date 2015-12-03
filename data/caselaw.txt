@@ -1,4 +1,4 @@
-unique|title|state|sourcefile|entryType|entryText
+userquestion|unique|title|state|sourcefile|phone|name|entryType|entryText|county
 
-|case1|OR|caselaw.txt|caselaw|search term
+|-7922964243906585811|case1|OR|caselaw.txt|||caselaw|search term|
 

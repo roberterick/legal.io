@@ -1,8 +1,8 @@
-entryText|entryType|state|county|name|phone
+userquestion|unique|title|state|sourcefile|phone|name|entryType|entryText|county
 
-search term|attorney|OR|Linn|That Guy and Sons|(541)324-0684
+|-8344176139311140355||OR|attorney.txt|(541)324-0684|That Guy and Sons|attorney|search term|Linn
 
-search term|attorney|OR|Benton|Lastname and Othername|(541)654-3453
+|1073692257446106637||OR|attorney.txt|(541)654-3453|Lastname and Othername|attorney|search term|Benton
 
-search term|attorney|OR|Benton|Full Name|(541)093-6423
+|-1758561404865210036||OR|attorney.txt|(541)093-6423|Full Name|attorney|search term|Benton
 
