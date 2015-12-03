@@ -1,0 +1,6 @@
+state|entryType|title|entryText
+
+OR|statuteLookup|example title1|example text1
+
+OR|statuteLookup|example title2|example text2
+
