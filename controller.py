@@ -1,4 +1,4 @@
-import bottle
+﻿import bottle
 import model_v2
 
 @bottle.route('/')
@@ -45,6 +45,14 @@ def showlegalquestionsubmission():
     state=bottle.request.forms.get("state")
     receivedquestion=database.getQuestions('question',searchTerm,state)    
     return bottle.template('legalquestionsubmission',dict(receivedquestion=receivedquestion))
+@bottle.route('/statutelookup')
+def statutelookup():
+    return bottle.template('statutelookup')
+@bottle.post('/statutelookupresults')
+def statutelookupresults():
+    state=bottle.request.forms.get("state")
+    statutes=database.getData('statutelookup',state)
+    return bottle.template('statutelookupresults',dict(statutes=statutes))
 
 database=model_v2.Database()
 bottle.debug(True)
