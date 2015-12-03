@@ -2,7 +2,7 @@
 
 <html>
   <head>
-    <title>legal.io--statute lookup results</title>
+    <title>legal.io--statute results</title>
     <style type="text/css">
       .label {text-align: right}
       .error {color: red}
@@ -11,12 +11,12 @@
   </head>
 
   <body>
-    <h2>legal.io--statute law lookup results</h2>
+    <h2>legal.io--statutes results</h2>
 
-	%if cases:
-	%for case in cases:
-	Title:{{case['title']}}<br>
-	Text:{{case['entryText']}}<br>
+	%if statutes:
+	%for statute in statutes:
+	Title:{{statute['title']}}<br>
+	Text:{{statute['entryText']}}<br>
 	<hr>
 	<br>
 	%end
@@ -30,3 +30,4 @@
   </body>
 
 </html>
+
