@@ -1,0 +1,8 @@
+entryText|entryType|state|county|name|phone
+
+search term|attorney|OR|Linn|That Guy and Sons|(541)324-0684
+
+search term|attorney|OR|Benton|Lastname and Othername|(541)654-3453
+
+search term|attorney|OR|Benton|Full Name|(541)093-6423
+
