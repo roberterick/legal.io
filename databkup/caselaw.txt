@@ -1,0 +1,4 @@
+unique|title|state|sourcefile|entryType|entryText
+
+3564970579176309292|case1|OR|caselaw.txt|caselaw|search term
+

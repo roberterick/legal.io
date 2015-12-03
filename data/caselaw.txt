@@ -1,0 +1,4 @@
+unique|title|state|sourcefile|entryType|entryText
+
+|case1|OR|caselaw.txt|caselaw|search term
+
