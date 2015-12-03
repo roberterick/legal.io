@@ -1,5 +1,5 @@
 import bottle
-import model
+import model_v2
 
 @bottle.route('/')
 def home():
@@ -46,6 +46,6 @@ def showlegalquestionsubmission():
     receivedquestion=database.getQuestions('question',searchTerm,state)    
     return bottle.template('legalquestionsubmission',dict(receivedquestion=receivedquestion))
 
-database=model.Database()
+database=model_v2.Database()
 bottle.debug(True)
 bottle.run(host='localhost', port=8080)
