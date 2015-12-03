@@ -13,8 +13,6 @@
   <body>
     <h2>legal.io--Local Attorney Search</h2>
 
-    <form action="/docountysearch" method="POST">
-
       <b>Attorneys in your county:</b>
       <br>
       <br>
@@ -34,9 +32,8 @@
 
       <br><br>
 
-      <input type="submit" value="Submit">
+      <a href="/">home</a>
 
-    </form>
   </body>
 
 </html>

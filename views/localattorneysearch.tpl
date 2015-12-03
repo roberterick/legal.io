@@ -13,24 +13,19 @@
   <body>
     <h2>legal.io--Local Attorney Search</h2>
 
-    <form action="/docountysearch" method="POST">
+    <form action="/dolocalattorneysearch" method="POST">
 
-      <b>Select Your State</b>
-      <br>
-      <select name="state">
-      %if states:
-        %for state in states:
-          <option value="{{state['abbreviation']}}">{{state['name']}}</option>
-          <hr>
-          <br>
-        %end
-      %else:
-        No results found.<br><br>
-        %end
-      %end
-      </select>
+      <b>Your state</b><br>
+	<select name="state">
+	<option value="CA">California</option>
+	<option value="OR">Oregon</option>
+	</select><br><br>
 
-      <br><br>
+      <b>Your county</b><br>
+	<select name="county">
+	<option value="Linn">Linn</option>
+	<option value="Benton">Benton</option>
+	</select><br><br>
 
       <input type="submit" value="Submit">
 

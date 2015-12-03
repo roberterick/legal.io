@@ -18,11 +18,12 @@
       <b>Search term</b><br>
       <input type="text" name="searchTerm" size="60" value="search term"><br>
       <br>
+
       <b>Your state</b><br>
-<select name="state">
+	<select name="state">
 	<option value="CA">California</option>
 	<option value="OR">Oregon</option>
-</select><br><br>
+	</select><br><br>
 
       <input type="submit" value="Submit">
 

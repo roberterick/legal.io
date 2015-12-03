@@ -19,21 +19,22 @@ def docaselawlookup():
 
 @bottle.route('/localattorneysearch')
 def localattorneysearch():
-    states=database.getList("stateList")
-    return bottle.template('localattorneysearch',dict(states=states))
+##    states=database.getList("stateList")
+    return bottle.template('localattorneysearch')
 
-@bottle.post('/docountysearch')
-def docountysearch():
-    searchTerm=bottle.request.forms.get("state")
-    state=database.getState(searchTerm)
-    return bottle.template('countysearchresults',state=state)
+##@bottle.post('/docountysearch')
+##def docountysearch():
+##    searchTerm=bottle.request.forms.get("state")
+##    state=database.getState(searchTerm)
+##    return bottle.template('countysearchresults',state=state)
 
 @bottle.post('/dolocalattorneysearch')
 def dolocalattorneysearch():
-    searchTerm=bottle.request.forms.get("county")
+    county=bottle.request.forms.get("county")
     state=bottle.request.forms.get("state")
-    attorneys=database.getAttorneys('attorney', searchTerm, state)
-    return bottle.template('localattorneysearchresults',attorneys=attorneys)
+##    attorneys=database.getAttorneys('attorney', searchTerm, state)
+    attorneys=database.getData('attorney',state)
+    return bottle.template('localattorneysearchresults',dict(attorneys=attorneys))
     
 @bottle.route('/legalquestionsubmission')
 def legalquestionsubmission():
