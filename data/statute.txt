@@ -1,9 +1,9 @@
 state|entryType|title|entryText
 
-OR|statuteLookup|Property Rights|https://www.oregonlegislature.gov/bills_laws/ors/ors105.html
+OR|statutelookup|Property Rights|https://www.oregonlegislature.gov/bills_laws/ors/ors105.html
 
-OR|statuteLookup|General Provisions|https://www.oregonlegislature.gov/bills_laws/ors/ors111.html
+OR|statutelookup|General Provisions|https://www.oregonlegislature.gov/bills_laws/ors/ors111.html
 
-CA|statuteLookup|Small Claims|http://www.leginfo.ca.gov/cgi-bin/displaycode?section=ccp&group=00001-01000&file=116.210-116.270
+CA|statutelookup|Small Claims|http://www.leginfo.ca.gov/cgi-bin/displaycode?section=ccp&group=00001-01000&file=116.210-116.270
 
-CA|statuteLookup|Parties|http://www.leginfo.ca.gov/cgi-bin/displaycode?section=ccp&group=00001-01000&file=116.410-116.430
+CA|statutelookup|Parties|http://www.leginfo.ca.gov/cgi-bin/displaycode?section=ccp&group=00001-01000&file=116.410-116.430
