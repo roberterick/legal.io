@@ -1,0 +1,17 @@
+This project uses Python 2.7 and Bottle
+
+Bottle is the webserver and template renderer
+
+To install Bottle, use pip:  pip install bottle
+
+see http://bottlepy.org/docs/dev/index.html
+
+The project uses modules which coordinate and have separate concerns. 
+
+The controller module handles requests and performs lookups.
+
+The model module handles data storage and provides data.
+
+The templates and bottle provide "view" functionality, so the architecture is model-view-controller.
+
+
