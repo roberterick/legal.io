@@ -24,7 +24,6 @@
     <p/>
     <a href="legalquestionsubmission">legal question submission</a>
     <p/>
-    <a href="legalqanda">legal Q&A</a>
   </body>
 
 </html>
