@@ -1,3 +1,9 @@
+##cs361, fall 2015
+##project b
+##rishi bhandarkar, james carlin, joshua curtis
+##robert erick, tyler koistinen, grant nakashima
+
+
 import bottle
 import model_v2
 
