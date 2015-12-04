@@ -74,6 +74,16 @@ def statutelookupresults():
     statutes=database.getData('statutelookup',state)
     return bottle.template('statutelookupresults',dict(statutes=statutes))
 
+@bottle.route('/whatsmycharge')
+def whatsmycharge():
+    return bottle.template('whatsmycharge')
+
+@bottle.post('/dochargelookup')
+def statutelookupresults():
+    state=bottle.request.forms.get("state")
+    charges=database.getData('whatsmycharge',state)
+    return bottle.template('whatsmychargeresults',dict(charges=charges))
+	
 @bottle.route('/whatsmyfine')
 def caselawlookup():
     return bottle.template('whatsmyfine')

@@ -16,7 +16,7 @@
     <p/>
     <a href="statutelookup">statute lookup</a>
     <p/>
-    <a href="understandyourcharge">understand your charge</a>
+    <a href="whatsmycharge">understand your charge</a>
     <p/>
     <a href="whatsmyfine">what's my fine</a>
     <p/>

@@ -1,0 +1,9 @@
+unique|title|state|sourcefile|entryType|entryText
+
+|Public Intoxication|OR|charge.txt|whatsmycharge|engaging in disorderly behavior while under the influence of alcohol, or drugs, on public or private property
+
+|Trespassing|OR|charge.txt|whatsmycharge|entering restricted property without authorization. In places where visitors are unwelcome, it’s typical to see signs warning against entry.
+
+|Indecent Exposure|CA|charge.txt|whatsmycharge|willfully exposing one’s private areas to another person or urinating in public.
+
+|Petty Theft|CA|charge.txt|whatsmycharge|theft if the stolen property was worth $300 or less
