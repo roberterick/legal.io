@@ -74,6 +74,10 @@ def statutelookupresults():
     statutes=database.getData('statutelookup',state)
     return bottle.template('statutelookupresults',dict(statutes=statutes))
 
+@bottle.route('/whatsmyfine')
+def caselawlookup():
+    return bottle.template('whatsmyfine')
+
 database=model_v2.Database()
 bottle.debug(True)
 bottle.run(host='localhost', port=8080)
