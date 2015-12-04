@@ -25,20 +25,12 @@ def docaselawlookup():
 
 @bottle.route('/localattorneysearch')
 def localattorneysearch():
-##    states=database.getList("stateList")
     return bottle.template('localattorneysearch')
-
-##@bottle.post('/docountysearch')
-##def docountysearch():
-##    searchTerm=bottle.request.forms.get("state")
-##    state=database.getState(searchTerm)
-##    return bottle.template('countysearchresults',state=state)
 
 @bottle.post('/dolocalattorneysearch')
 def dolocalattorneysearch():
     county=bottle.request.forms.get("county")
     state=bottle.request.forms.get("state")
-##    attorneys=database.getAttorneys('attorney', searchTerm, state)
     attorneys=database.getData('attorney',state)
     return bottle.template('localattorneysearchresults',dict(attorneys=attorneys))
     
@@ -57,11 +49,6 @@ def showlegalquestionsubmission():
     database.save()
     #then retrieve and display the questions
     receivedquestions=database.getData('userquestion',state)
-    
-##    searchTerm=bottle.request.forms.get("userquestion")
-##    state=bottle.request.forms.get("state")
-##    receivedquestion=database.getQuestions('question',searchTerm,state)    
-##    return bottle.template('legalquestionsubmission',dict(receivedquestion=receivedquestion))
     return bottle.template('showlegalquestionsubmission',dict(receivedquestions=receivedquestions))
 
 @bottle.route('/statutelookup')
@@ -89,5 +76,6 @@ def caselawlookup():
     return bottle.template('whatsmyfine')
 
 database=model_v2.Database()
+database.performTests()
 bottle.debug(True)
 bottle.run(host='localhost', port=8080)

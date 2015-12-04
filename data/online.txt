@@ -2,3 +2,5 @@ userquestion|unique|state|sourcefile|entryType
 
 this is a question|7711354080229744064|CA|online.txt|userquestion
 
+this is a legal question|423839497168406696|OR|online.txt|userquestion
+
