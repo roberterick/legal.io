@@ -1,4 +1,8 @@
-userquestion|unique|title|state|sourcefile|phone|name|entryType|entryText|county
+entryType|state|title|entryText
 
-|-7922964243906585811|case1|OR|caselaw.txt|||caselaw|search term|
+caselaw|OR|case 1|example caselaw 1 text
+
+caselaw|OR|case 2|example caselaw 2 text
+
+caselaw|CA|case 3|example caselaw 3 text
 

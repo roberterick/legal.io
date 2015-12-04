@@ -1,20 +1,4 @@
-userquestion|unique|title|state|sourcefile|phone|name|entryType|entryText|county
+userquestion|unique|state|sourcefile|entryType
 
-this is a question|1505408352108553966||CA|online.txt|||userquestion||
-
-this is a question|-7948311442421755385||OR|online.txt|||userquestion||
-
-this is a question|1505408352108553966||CA|online.txt|||userquestion||
-
-this is a question|1505408352108553966||CA|online.txt|||userquestion||
-
-this is a question|1505408352108553966||CA|online.txt|||userquestion||
-
-this is a question|1505408352108553966||CA|online.txt|||userquestion||
-
-this is a question|1505408352108553966||CA|online.txt|||userquestion||
-
-this is a question|1505408352108553966||CA|online.txt|||userquestion||
-
-this is a question|7711354080229744064||CA|online.txt|||userquestion||
+this is a question|7711354080229744064|CA|online.txt|userquestion
 

@@ -1,4 +1,8 @@
-userquestion|unique|title|state|sourcefile|phone|name|entryType|entryText|county
+unique|title|state|sourcefile|entryType|entryText
 
-|-7922964243906585811|case1|OR|caselaw.txt|||caselaw|search term|
+-8881904268124303036|case 1|OR|caselaw.txt|caselaw|example caselaw 1 text
+
+-5716078168496341834|case 2|OR|caselaw.txt|caselaw|example caselaw 2 text
+
+2178205238531215337|case 3|CA|caselaw.txt|caselaw|example caselaw 3 text
 

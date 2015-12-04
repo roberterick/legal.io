@@ -31,16 +31,17 @@ class Database(object):
 
     def save(self):
         '''saves the data to various files in subdirectory'''
-        sourcefiles=set() #a set of sourcefiles names
-        header=set()
+        sourcefiles={} #a set of sourcefiles names
         for line in self.database:
-            sourcefiles.add(line['sourcefile'])
-            [header.add(k) for k in line.keys()]
+            sf=line['sourcefile']
+            if not sourcefiles.has_key(sf):
+                sourcefiles[sf]={'header':set()}
+                [sourcefiles[sf]['header'].add(k) for k in line.keys()]
 
-        header=list(header)
-        header.sort()
-        header.reverse()
-        for sf in sourcefiles:
+        for sf in sourcefiles.keys():
+            header=list(sourcefiles[sf]['header'])
+            header.sort()
+            header.reverse()
             filelist=[]
             alist=filter(lambda x:x['sourcefile']==sf,self.database)
             for adict in alist:

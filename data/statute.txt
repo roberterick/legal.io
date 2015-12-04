@@ -1,10 +1,10 @@
-userquestion|unique|title|state|sourcefile|phone|name|entryType|entryText|county
+unique|title|state|sourcefile|entryType|entryText
 
-|-4287097973217113262|Property Rights|OR|statute.txt|||statutelookup|https://www.oregonlegislature.gov/bills_laws/ors/ors105.html|
+762824488186809223|Property Rights|OR|statute.txt|statutelookup|https://www.oregonlegislature.gov/bills_laws/ors/ors105.html
 
-|-6117588631784464166|General Provisions|OR|statute.txt|||statutelookup|https://www.oregonlegislature.gov/bills_laws/ors/ors111.html|
+-6217644422749012929|General Provisions|OR|statute.txt|statutelookup|https://www.oregonlegislature.gov/bills_laws/ors/ors111.html
 
-|8276967885138654746|Small Claims|CA|statute.txt|||statutelookup|http://www.leginfo.ca.gov/cgi-bin/displaycode?section=ccp&group=00001-01000&file=116.210-116.270|
+-3444822767296947841|Small Claims|CA|statute.txt|statutelookup|http://www.leginfo.ca.gov/cgi-bin/displaycode?section=ccp&group=00001-01000&file=116.210-116.270
 
-|7544162359608699315|Parties|CA|statute.txt|||statutelookup|http://www.leginfo.ca.gov/cgi-bin/displaycode?section=ccp&group=00001-01000&file=116.410-116.430|
+-4138506432603201562|Parties|CA|statute.txt|statutelookup|http://www.leginfo.ca.gov/cgi-bin/displaycode?section=ccp&group=00001-01000&file=116.410-116.430
 

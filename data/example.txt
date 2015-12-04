@@ -1,6 +1,6 @@
-userquestion|unique|title|state|sourcefile|phone|name|entryType|entryText|county
+unique|title|state|sourcefile|entryType|entryText
 
-|2681289320616868020|example title1|OR|example.txt|||statuteLookup|example text1|
+-4095677807565740827|example title1|OR|example.txt|statuteLookup|example text1
 
-|4161395574275353332|example title2|OR|example.txt|||statuteLookup|example text2|
+7379250772009631525|example title2|OR|example.txt|statuteLookup|example text2
 
