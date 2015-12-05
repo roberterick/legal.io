@@ -1,0 +1,6 @@
+state|entryType|entryText
+
+OR|testdata|test entry 1
+
+CA|testdata|test entry 2
+

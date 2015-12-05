@@ -1,0 +1,6 @@
+unique|state|sourcefile|entryType|entryText
+
+-6227567650449627642|OR|testdata.txt|testdata|test entry 1
+
+8817068910144971914|CA|testdata.txt|testdata|test entry 2
+
