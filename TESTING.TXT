@@ -1,0 +1,7 @@
+The model_v2.py module contains a "performTests" function, which will perform its tests.  It is called automatically by the controller when the controller imports it.
+
+To test the website, run the "test_the_website.py" file ON A SEPARATE PYTHON instance.  The other python instance should be running the controller (the website should be running on localhost:8080).
+
+Running "test_the_website" will perform some basic checks on the website.  This tests the controller and the views both.f
+
+
