@@ -15,13 +15,13 @@
 
     <form action="/dolocalattorneysearch" method="POST">
 
-      <b>Your state</b><br>
+      <b>Select the name of the state where you wish to find an attorney</b><br>
 	<select name="state">
 	<option value="CA">California</option>
 	<option value="OR">Oregon</option>
 	</select><br><br>
 
-      <b>Your county</b><br>
+      <b>Select the name of the county where you wish to find an attorney</b><br>
 	<select name="county">
 	<option value="Linn">Linn</option>
 	<option value="Benton">Benton</option>
@@ -30,6 +30,9 @@
       <input type="submit" value="Submit">
 
     </form>
+	
+	<a href="/">home</a>
+	
   </body>
 
 </html>

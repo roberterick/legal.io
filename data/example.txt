@@ -1,6 +1,6 @@
 unique|title|state|sourcefile|entryType|entryText
 
--4095677807565740827|example title1|OR|example.txt|statuteLookup|example text1
+-577248027|example title1|OR|example.txt|statuteLookup|example text1
 
-7379250772009631525|example title2|OR|example.txt|statuteLookup|example text2
+-299286747|example title2|OR|example.txt|statuteLookup|example text2
 

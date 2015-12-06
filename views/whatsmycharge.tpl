@@ -16,7 +16,7 @@
       <b>Enter the charge you want to look up</b><br>
       <input type="text" name="searchTerm" size="60" value="search term"><br>
       <br>
-      <b>Enter Your state</b><br>
+      <b>Select the state that your charge was in</b><br>
 <select name="state">
 	<option value="CA">California</option>
 	<option value="OR">Oregon</option>
@@ -25,6 +25,9 @@
       <input type="submit" value="Submit">
 
     </form>
+	
+	<a href="/">home</a>
+	
   </body>
 
 </html>

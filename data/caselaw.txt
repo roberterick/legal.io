@@ -1,8 +1,8 @@
 unique|title|state|sourcefile|entryType|entryText
 
--8881904268124303036|case 1|OR|caselaw.txt|caselaw|example caselaw 1 text
+1634521412|case 1|OR|caselaw.txt|caselaw|example caselaw 1 text
 
--5716078168496341834|case 2|OR|caselaw.txt|caselaw|example caselaw 2 text
+-630653770|case 2|OR|caselaw.txt|caselaw|example caselaw 2 text
 
-2178205238531215337|case 3|CA|caselaw.txt|caselaw|example caselaw 3 text
+-1299427351|case 3|CA|caselaw.txt|caselaw|example caselaw 3 text
 

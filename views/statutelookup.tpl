@@ -15,10 +15,10 @@
 
     <form action="/dostatutelookup" method="POST">
 
-      <b>Search term</b><br>
+      <b>Enter the name of the statute you want to look up</b><br>
       <input type="text" name="searchTerm" size="60" value="search term"><br>
       <br>
-      <b>Your state</b><br>
+      <b>Select the name of the state for the statute you want to look up</b><br>
 <select name="state">
 	<option value="CA">California</option>
 	<option value="OR">Oregon</option>
@@ -27,6 +27,9 @@
       <input type="submit" value="Submit">
 
     </form>
+	
+	<a href="/">home</a>
+	
   </body>
 
 </html>
