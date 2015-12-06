@@ -1,10 +1,10 @@
 unique|title|state|sourcefile|entryType|entryText
 
-1605170208|Public Intoxication|OR|charge.txt|whatsmycharge|engaging in disorderly behavior while under the influence of alcohol, or drugs, on public or private property
+4192833215824458784|Public Intoxication|OR|charge.txt|whatsmycharge|engaging in disorderly behavior while under the influence of alcohol, or drugs, on public or private property
 
-1996882620|Trespassing|OR|charge.txt|whatsmycharge|entering restricted property without authorization. In places where visitors are unwelcome, it’s typical to see signs warning against entry.
+6479819772812198588|Trespassing|OR|charge.txt|whatsmycharge|entering restricted property without authorization. In places where visitors are unwelcome, it’s typical to see signs warning against entry.
 
-1355966807|Indecent Exposure|CA|charge.txt|whatsmycharge|willfully exposing one’s private areas to another person or urinating in public.
+7172781718537136471|Indecent Exposure|CA|charge.txt|whatsmycharge|willfully exposing one’s private areas to another person or urinating in public.
 
--1434303232|Petty Theft|CA|charge.txt|whatsmycharge|theft if the stolen property was worth $300 or less
+-7296542725963102976|Petty Theft|CA|charge.txt|whatsmycharge|theft if the stolen property was worth $300 or less
 

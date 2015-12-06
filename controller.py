@@ -6,6 +6,7 @@
 
 import bottle
 import model_v2
+import os
 
 @bottle.route('/')
 def home():
@@ -75,7 +76,16 @@ def statutelookupresults():
 def caselawlookup():
     return bottle.template('whatsmyfine')
 
-database=model_v2.Database()
-database.performTests()
-bottle.debug(True)
-bottle.run(host='localhost', port=8080)
+@bottle.post('/dofinelookup')
+def statutelookupresults():
+    state=bottle.request.forms.get("state")
+    fines=database.getData('whatsmyfine',state)
+    return bottle.template('whatsmyfineresults',dict(fines=fines))
+
+if __name__ == "__main__":
+    database=model_v2.Database()
+    database.performTests()
+    bottle.debug(True)
+##    port = int(os.environ.get("PORT", 5000))
+##    bottle.run(host='0.0.0.0', port=port)
+    bottle.run(host='localhost', port=8080)

@@ -1,0 +1,10 @@
+unique|title|state|sourcefile|entryType|entryText
+
+6482387909762737908|Public Intoxication|OR|fine.txt|whatsmyfine|engaging in disorderly behavior while under the influence of alcohol, or drugs, on public or private property
+
+-761601725009303768|Trespassing|OR|fine.txt|whatsmyfine|entering restricted property without authorization. In places where visitors are unwelcome, it’s typical to see signs warning against entry.
+
+-1795388760368335229|Indecent Exposure|CA|fine.txt|whatsmyfine|willfully exposing one’s private areas to another person or urinating in public.
+
+5173025272812206868|Petty Theft|CA|fine.txt|whatsmyfine|theft if the stolen property was worth $300 or less
+
